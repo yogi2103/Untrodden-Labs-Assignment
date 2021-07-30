@@ -1,0 +1,19 @@
+When making query
+db.students.find({})
+we're supposed to get it like this when testing with API:-
+
+{
+	"_id" : ObjectId("60efee38e77025f8e678100d"),
+	"name" : "Yogesh Kumar",
+	"contact" : "yogesh.baghel86@mail.com",
+	"subjects" : [
+		"Computer networks",
+		"Database management"
+	],
+	"class" : "B.Tech",
+	"societies" : [
+		"robotics",
+		"drama"
+	],
+	"year" : 2021
+}
